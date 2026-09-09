@@ -44,3 +44,62 @@ if(x > 10) {
 } else {
     console.log('not greater than 10');
 }
+
+let age = 25;
+age = 16;
+if(age>= 18) {
+    console.log('Age is 18 or above');
+} else {
+    console.log('Age is less than 18');
+}
+
+//odd or even
+let n = 10;
+n = 100;
+if (n%2===0) {
+    console.log(n, 'is even');
+} else {
+    console.log(n, 'is odd');
+}
+
+if (age < 18) {
+    console.log('Junior');
+} else if (age > 60) {
+    console.log('senior');
+} else {
+    console.log('middle');
+}
+
+//ternary operator
+age = 20;
+let result = age >= 18 ? 'Adult':'Not Adult';
+console.log(result);
+
+// condition ? true output : false output
+
+//Practice-Problems
+x = 87;
+
+if (x%3===0){
+    console.log(x, 'is a multiple of 3');
+} else {
+    console.log(x, 'not a multiple of 3');
+}
+
+let score = 87;
+let grade;
+score = 65;
+
+if (score >= 80) {
+    grade = 'A';
+} else if (score >= 70) {
+    grade = 'B';
+} else if (score >= 60) {
+    grade = 'C';
+} else if (score >= 50) {
+    grade = 'D';
+} else {
+    grade = 'F';
+}
+console.log(grade);
+
