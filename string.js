@@ -40,3 +40,7 @@ console.log('Apna' + 'College'); //ApnaCollege
 
 // replaceAll
 // string in JS is immutable
+// practice problem 1
+let a = 'joyprottoy';
+let username = '@' + a + a.length;
+console.log('username ', username);
